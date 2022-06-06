@@ -67,7 +67,7 @@ The PAMAP2 Physical Activity Monitoring Dataset is an ML dataset from the UCI re
 | Support vector machine    | 98.36%   |98.21%|
 | Logistic Regresssion      | 96.23%   |95.85%|
 
-- in details results in **Modeling&results** notebook
+- See the **Modeling&Results** notebook for specific results
 
 ## **Report**
 
