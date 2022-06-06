@@ -1,13 +1,14 @@
+
 ## **Human Activity Recognition**
 In numerous healthcare applications, activity Recognition is a critical duty. It is feasible to provide automatic suggestions to both patients and physicians by continually monitoring and analyzing user behavior.
-
+___
 ## **Description**
 Our project aims to determine whether we can use fewer sensors to acquire useful information, what machine learning model might be deployed, and what should be done to improve our classifiers' performance.
-
+___
 ## **Requirements**
 - [**Sklearn**](https://scikit-learn.org/stable/install.html) (The sklearn library contains a lot of efficient tools for machine learning)
 
-
+___
 ## **Table Of Contents**
 - [**Human Activity Recognition**](#human-activity-recognition)
 - [**Description**](#description)
@@ -22,11 +23,11 @@ Our project aims to determine whether we can use fewer sensors to acquire useful
 - [**Future Work**](#future-work)
 - [**Contributing**](#contributing)
 
-
+___
 ## **Data**
 #### **[PAMAP2](https://archive.ics.uci.edu/ml/datasets/PAMAP2+Physical+Activity+Monitoring)** 
 The PAMAP2 Physical Activity Monitoring Dataset is an ML dataset from the UCI repository that contains data from 18 different physical activities conducted by 9 participants while wearing three inertial measurement units and a heart rate monitor. 
-
+___
 
 
 ## **Pre-Processing**
@@ -34,7 +35,7 @@ The PAMAP2 Physical Activity Monitoring Dataset is an ML dataset from the UCI re
 * Because the ninth subject did not participate in any of the activities we picked, only eight participants' data were used instead of nine.
 * Optional data were ignored.
 
-
+___
 ## **Guide Lines**  
 
 1. You must first donwload PAMAP2 data.
@@ -51,13 +52,15 @@ The PAMAP2 Physical Activity Monitoring Dataset is an ML dataset from the UCI re
    > **warning:**
    > If any preprocessing happened, CSV files must be recreated.
 
-
+___
 
 ## **Results**
 
 - Testing on just **4 Activities** we achivied decent results even with Logistic regression model
 
 - We recommend  using  a Logistic model on a normalized data sample to effectively make a prediction 
+___
+>## Models Results on Normalzied data
 
 | Model | Train Accuracy | Test Accuracy |
 |:------:|:------:|:------:|
@@ -67,17 +70,29 @@ The PAMAP2 Physical Activity Monitoring Dataset is an ML dataset from the UCI re
 | Support vector machine    | 98.36%   |98.21%|
 | Logistic Regresssion      | 96.23%   |95.85%|
 
+>## Models Results on standardized data
+
+| Model | Train Accuracy | Test Accuracy |
+|:------:|:------:|:------:|
+| K-Nearest Neighboor       | 99.82%   |99.83%|
+| Random forest classifer   | 89.75%   |89.83%|
+| Descsion tree classifer   | 84.77%   |84.79%|
+| Support vector machine    | 94.72%   |94.72%|
+| Logistic Regresssion      | 96.49%   |96.4%|
+
 - See the **Modeling&Results** notebook for specific results
 
+---
 ## **Report**
 
 Project's **[PDF Report]()**
 
-
+---
 ## **Future Work**
 
 We want to work on all other activities in order to get very high accuracy when modeling with logistic regression.
 
+---
 ## **Contributing**
 Any kind of enhancement or contribution is welcomed.
 
