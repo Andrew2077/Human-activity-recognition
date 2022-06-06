@@ -85,7 +85,7 @@ ___
 ---
 ## **Report**
 
-Project's **[PDF Report]()**
+Project's **[PDF Report](Human activity recognition.pdf)**
 
 ---
 ## **Future Work**
