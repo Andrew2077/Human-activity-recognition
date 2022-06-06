@@ -78,9 +78,9 @@ ___
 | Random forest classifer   | 89.75%   |89.83%|
 | Descsion tree classifer   | 84.77%   |84.79%|
 | Support vector machine    | 94.72%   |94.72%|
-| Logistic Regresssion      | 96.49%   |96.4%|
+| Logistic Regresssion      | 96.49%   |96.4% |
 
-- See the **Modeling&Results** notebook for specific results
+- See the **[Modeling&results notebook](Modeling&results.ipynb)**  for detailed results
 
 ---
 ## **Report**
