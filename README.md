@@ -17,7 +17,7 @@ ___
 - [**Data**](#data)
     - [**PAMAP2**](#pamap2)
 - [**Pre-Processing**](#pre-processing)
-- [**Guide Lines**](#guide-lines)
+- [**Guideline**](#guideline)
 - [**Results**](#results)
 - [**Report**](#report)
 - [**Future Work**](#future-work)
@@ -36,7 +36,7 @@ ___
 * Optional data were ignored.
 
 ___
-## **Guide Lines**  
+## **Guideline**  
 
 1. You must first donwload PAMAP2 data.
 1. Create a new directory. 
